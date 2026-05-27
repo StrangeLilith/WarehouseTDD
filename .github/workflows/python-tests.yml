@@ -22,46 +22,46 @@ jobs:
       run: pip install pytest
 
     - name: Test 01 - Create Warehouse
-      run: python -m pytest tests/test_01.py -v
+      run: python -m pytest test_01.py -v
 
     - name: Test 02 - Add Single Product
-      run: python -m pytest tests/test_02.py -v
+      run: python -m pytest test_02.py -v
 
     - name: Test 03 - Add Multiple Products
-      run: python -m pytest tests/test_03.py -v
+      run: python -m pytest test_03.py -v
 
     - name: Test 04 - Check Nonexistent
-      run: python -m pytest tests/test_04.py -v
+      run: python -m pytest test_04.py -v
 
     - name: Test 05 - Add Increases Quantity
-      run: python -m pytest tests/test_05.py -v
+      run: python -m pytest test_05.py -v
 
     - name: Test 06 - Remove Decreases Quantity
-      run: python -m pytest tests/test_06.py -v
+      run: python -m pytest test_06.py -v
 
     - name: Test 07 - Remove Exact to Zero
-      run: python -m pytest tests/test_07.py -v
+      run: python -m pytest test_07.py -v
 
     - name: Test 08 - Remove Too Much Error
-      run: python -m pytest tests/test_08.py -v
+      run: python -m pytest test_08.py -v
 
     - name: Test 09 - Add Negative Error
-      run: python -m pytest tests/test_09.py -v
+      run: python -m pytest test_09.py -v
 
     - name: Test 10 - Remove Negative Error
-      run: python -m pytest tests/test_10.py -v
+      run: python -m pytest test_10.py -v
 
     - name: Test 11 - Get All Products
-      run: python -m pytest tests/test_11.py -v
+      run: python -m pytest test_11.py -v
 
     - name: Test 12 - Complex Operations
-      run: python -m pytest tests/test_12.py -v
+      run: python -m pytest test_12.py -v
 
     - name: Test 13 - Empty by Default
-      run: python -m pytest tests/test_13.py -v
+      run: python -m pytest test_13.py -v
 
     - name: Test 14 - Remove Nonexistent Error
-      run: python -m pytest tests/test_14.py -v
+      run: python -m pytest test_14.py -v
 
     - name: Test 15 - Day Simulation
-      run: python -m pytest tests/test_15.py -v
+      run: python -m pytest test_15.py -v
